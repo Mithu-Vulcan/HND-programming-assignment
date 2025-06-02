@@ -25,7 +25,7 @@ namespace KickBlastJudo.Forms
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -35,11 +35,23 @@ namespace KickBlastJudo.Forms
 
             if (username == "admin" && password == "admin")
             {
-                MessageBox.Show("Login Success");
+                DashboardForm dform = new DashboardForm();
+                dform.Show();
+                Hide();
             } else
             {
                 MessageBox.Show("Login Failed");
             }
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
