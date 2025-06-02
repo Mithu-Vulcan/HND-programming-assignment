@@ -1,0 +1,11 @@
+D:\Esoft\HND\programming\assignment\KickBlastJudo\bin\Debug\KickBlastJudo.exe.config
+D:\Esoft\HND\programming\assignment\KickBlastJudo\bin\Debug\KickBlastJudo.exe
+D:\Esoft\HND\programming\assignment\KickBlastJudo\bin\Debug\KickBlastJudo.pdb
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.csproj.AssemblyReference.cache
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.Forms.DashboardForm.resources
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.Forms.LoginForm.resources
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.Properties.Resources.resources
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.csproj.GenerateResource.cache
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.csproj.CoreCompileInputs.cache
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.exe
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.pdb
