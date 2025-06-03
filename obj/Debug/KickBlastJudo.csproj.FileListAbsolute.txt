@@ -9,3 +9,4 @@ D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.csproj
 D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.csproj.CoreCompileInputs.cache
 D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.exe
 D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.pdb
+D:\Esoft\HND\programming\assignment\KickBlastJudo\obj\Debug\KickBlastJudo.Forms.AthleteForm.resources

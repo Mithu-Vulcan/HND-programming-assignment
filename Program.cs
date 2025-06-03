@@ -17,7 +17,7 @@ namespace KickBlastJudo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            Application.Run(new AthleteForm());
         }
     }
 }
