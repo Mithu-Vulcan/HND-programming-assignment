@@ -17,6 +17,14 @@ namespace KickBlastJudo.Forms
             InitializeComponent();
         }
 
+        public void loadSubform(Form subForm)
+        {
+            MainPanel.Controls.Clear();
+            subForm.TopLevel = false;
+            MainPanel.Controls.Add(subForm);
+            subForm.Show();
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -25,6 +33,17 @@ namespace KickBlastJudo.Forms
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void AthleteButton_Click(object sender, EventArgs e)
+        {
+            AthleteForm aForm = new AthleteForm();
+            loadSubform(aForm);
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Close();
         }
     }
 }

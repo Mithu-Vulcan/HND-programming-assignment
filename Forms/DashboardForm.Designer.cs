@@ -34,13 +34,15 @@
             this.AthleteButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.MainPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.sidePanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidePanel
             // 
+            this.sidePanel.Controls.Add(this.linkLabel1);
             this.sidePanel.Controls.Add(this.HomeButton);
             this.sidePanel.Controls.Add(this.WeightButton);
             this.sidePanel.Controls.Add(this.AthleteButton);
@@ -83,6 +85,7 @@
             this.AthleteButton.TabIndex = 2;
             this.AthleteButton.Text = "Athlete";
             this.AthleteButton.UseVisualStyleBackColor = true;
+            this.AthleteButton.Click += new System.EventHandler(this.AthleteButton_Click);
             // 
             // button1
             // 
@@ -97,20 +100,34 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.flowLayoutPanel1);
+            this.panel1.Controls.Add(this.MainPanel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(158, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(824, 553);
             this.panel1.TabIndex = 1;
             // 
-            // flowLayoutPanel1
+            // MainPanel
             // 
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(824, 553);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Location = new System.Drawing.Point(0, 0);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(824, 553);
+            this.MainPanel.TabIndex = 0;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.OrangeRed;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel1.Location = new System.Drawing.Point(22, 481);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(52, 31);
+            this.linkLabel1.TabIndex = 16;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Exit";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // DashboardForm
             // 
@@ -123,6 +140,7 @@
             this.Name = "DashboardForm";
             this.Text = "DashboardForm";
             this.sidePanel.ResumeLayout(false);
+            this.sidePanel.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -136,6 +154,7 @@
         private System.Windows.Forms.Button WeightButton;
         private System.Windows.Forms.Button AthleteButton;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel MainPanel;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

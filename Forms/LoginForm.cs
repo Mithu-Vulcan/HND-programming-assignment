@@ -25,7 +25,7 @@ namespace KickBlastJudo.Forms
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void loginButton_Click(object sender, EventArgs e)

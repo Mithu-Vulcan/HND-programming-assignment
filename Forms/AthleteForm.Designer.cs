@@ -163,9 +163,10 @@
             // MaleRadio
             // 
             this.MaleRadio.AutoSize = true;
+            this.MaleRadio.Font = new System.Drawing.Font("Montserrat", 8F);
             this.MaleRadio.Location = new System.Drawing.Point(121, 299);
             this.MaleRadio.Name = "MaleRadio";
-            this.MaleRadio.Size = new System.Drawing.Size(58, 20);
+            this.MaleRadio.Size = new System.Drawing.Size(64, 26);
             this.MaleRadio.TabIndex = 25;
             this.MaleRadio.TabStop = true;
             this.MaleRadio.Text = "Male";
@@ -174,9 +175,10 @@
             // FemaleRadio
             // 
             this.FemaleRadio.AutoSize = true;
+            this.FemaleRadio.Font = new System.Drawing.Font("Montserrat", 8F);
             this.FemaleRadio.Location = new System.Drawing.Point(189, 299);
             this.FemaleRadio.Name = "FemaleRadio";
-            this.FemaleRadio.Size = new System.Drawing.Size(74, 20);
+            this.FemaleRadio.Size = new System.Drawing.Size(83, 26);
             this.FemaleRadio.TabIndex = 26;
             this.FemaleRadio.TabStop = true;
             this.FemaleRadio.Text = "Female";
@@ -214,7 +216,9 @@
             // AthleteAddbutton
             // 
             this.AthleteAddbutton.AccessibleName = "loginButton";
+            this.AthleteAddbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.AthleteAddbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AthleteAddbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AthleteAddbutton.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AthleteAddbutton.Location = new System.Drawing.Point(342, 491);
             this.AthleteAddbutton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -222,12 +226,14 @@
             this.AthleteAddbutton.Size = new System.Drawing.Size(113, 49);
             this.AthleteAddbutton.TabIndex = 29;
             this.AthleteAddbutton.Text = "Add";
-            this.AthleteAddbutton.UseVisualStyleBackColor = true;
+            this.AthleteAddbutton.UseVisualStyleBackColor = false;
             // 
             // UpdateButton
             // 
             this.UpdateButton.AccessibleName = "loginButton";
+            this.UpdateButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.UpdateButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpdateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UpdateButton.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpdateButton.Location = new System.Drawing.Point(461, 491);
             this.UpdateButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -235,12 +241,14 @@
             this.UpdateButton.Size = new System.Drawing.Size(113, 49);
             this.UpdateButton.TabIndex = 30;
             this.UpdateButton.Text = "Update";
-            this.UpdateButton.UseVisualStyleBackColor = true;
+            this.UpdateButton.UseVisualStyleBackColor = false;
             // 
             // DeleteButton
             // 
             this.DeleteButton.AccessibleName = "loginButton";
+            this.DeleteButton.BackColor = System.Drawing.Color.Red;
             this.DeleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DeleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DeleteButton.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteButton.Location = new System.Drawing.Point(699, 491);
             this.DeleteButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -248,7 +256,7 @@
             this.DeleteButton.Size = new System.Drawing.Size(113, 49);
             this.DeleteButton.TabIndex = 30;
             this.DeleteButton.Text = "Delete";
-            this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -263,7 +271,9 @@
             // ClearButton
             // 
             this.ClearButton.AccessibleName = "";
+            this.ClearButton.BackColor = System.Drawing.Color.Magenta;
             this.ClearButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ClearButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ClearButton.Font = new System.Drawing.Font("Montserrat Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearButton.Location = new System.Drawing.Point(580, 491);
             this.ClearButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -271,7 +281,7 @@
             this.ClearButton.Size = new System.Drawing.Size(113, 49);
             this.ClearButton.TabIndex = 29;
             this.ClearButton.Text = "Clear";
-            this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.UseVisualStyleBackColor = false;
             // 
             // AthleteForm
             // 
